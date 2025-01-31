@@ -63,6 +63,7 @@
 <?php
 include "db.php";
 $id=$_GET['id'];
+echo $id;
 if(isset($_POST['submit'])){
     $first_name=$_POST['first_name'];
     $last_name=$_POST['last_name'];
